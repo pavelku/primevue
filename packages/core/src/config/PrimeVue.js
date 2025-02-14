@@ -25,6 +25,7 @@ export const defaultOptions = {
         dateIsNot: 'Date is not',
         dateBefore: 'Date is before',
         dateAfter: 'Date is after',
+        regex: 'Regex',
         clear: 'Clear',
         apply: 'Apply',
         matchAll: 'Match All',
@@ -131,7 +132,7 @@ export const defaultOptions = {
         }
     },
     filterMatchModeOptions: {
-        text: [FilterMatchMode.STARTS_WITH, FilterMatchMode.CONTAINS, FilterMatchMode.NOT_CONTAINS, FilterMatchMode.ENDS_WITH, FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS],
+        text: [FilterMatchMode.STARTS_WITH, FilterMatchMode.CONTAINS, FilterMatchMode.NOT_CONTAINS, FilterMatchMode.ENDS_WITH, FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS, FilterMatchMode.REGEX],
         numeric: [FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS, FilterMatchMode.LESS_THAN, FilterMatchMode.LESS_THAN_OR_EQUAL_TO, FilterMatchMode.GREATER_THAN, FilterMatchMode.GREATER_THAN_OR_EQUAL_TO],
         date: [FilterMatchMode.DATE_IS, FilterMatchMode.DATE_IS_NOT, FilterMatchMode.DATE_BEFORE, FilterMatchMode.DATE_AFTER]
     },
